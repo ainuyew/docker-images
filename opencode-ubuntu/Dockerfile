@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       python3-venv \
       build-essential \
       less \
+      ripgrep \ 
       vim \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*

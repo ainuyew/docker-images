@@ -15,6 +15,7 @@ RUN pacman -Syu --noconfirm \
       python-pip \
       sudo \
       less \
+      ripgrep \
       vi \
   && pacman -Scc --noconfirm
 
