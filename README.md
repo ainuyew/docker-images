@@ -24,6 +24,7 @@ Place to store my docker images.
          -v "$(pwd):/home/opencode/workspace:Z" \
          -v "$HOME/.config/opencode/opencode.json:/home/opencode/.config/opencode/opencode.json:ro" \
          -v opencode-data:/home/opencode/.local/share/opencode \
+         -v opencode-cache:/home/opencode/.cache/opencode \
          -w /home/opencode/workspace \
          opencode-alpine
 ```
